@@ -9,7 +9,7 @@ class Config:
     NEO4J_USER = "neo4j"
     NEO4J_PASSWORD = "liuwdsrL123!"
 
-    DEEPSEEK_API_KEY = "sk-ba58fcacb6f142dc80785f8931fc245b"
+    DEEPSEEK_API_KEY = "API密钥"
     DEEPSEEK_MODEL = "deepseek-chat"
     API_TIMEOUT = 60
     API_BASE_URL = "https://api.deepseek.com"
