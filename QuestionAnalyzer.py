@@ -7,7 +7,7 @@ from typing import List, Dict
 class Config:
     NEO4J_URI = "http://localhost:7474"
     NEO4J_USER = "neo4j"
-    NEO4J_PASSWORD = "liuwdsrL123!"
+    NEO4J_PASSWORD = "密码"
 
     DEEPSEEK_API_KEY = "API密钥"
     DEEPSEEK_MODEL = "deepseek-chat"
