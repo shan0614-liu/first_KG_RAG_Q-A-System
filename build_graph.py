@@ -12,7 +12,7 @@ class ScholarGraph:
         # 拼接数据集路径：当前目录下的data文件夹中的data_test.json
         self.data_path = os.path.join(cur_dir, 'data/data.json')
         # 连接Neo4j数据库（地址、用户名、密码固定）
-        self.g = Graph("http://localhost:7474", auth=("neo4j", "liuwdsrL123!"))
+        self.g = Graph("http://localhost:7474", auth=("neo4j", "密码"))
         # 清空数据库中所有现有节点和关系，确保每次构建是全新图谱
         if clear_all:
             self.g.delete_all()
